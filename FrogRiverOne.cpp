@@ -15,6 +15,6 @@ for(int i=1; i<=x;i++){
     vec.push_back(distance(A,indx));
 }
 sort(vec.begin(),vec.end());
-cout<< "time: " << vec.back()+1 <<endl;
+cout<< "time: " << vec.back() <<endl;
 return 0;
 }
